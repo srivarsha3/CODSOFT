@@ -1,73 +1,92 @@
-# CODSOFT
-🧠 Task 1: Face Detection and Recognition
+Welcome to my AI internship portfolio developed during my time with CodSoft. This repository contains five hands-on tasks demonstrating core Artificial Intelligence and Machine Learning concepts using Python and modern libraries.
+🔎 Task 1: Face Detection and Recognition
 
-Description:
+Project Overview: This application detects and recognizes human faces in real-time using webcam input. It utilizes Haar cascades for face detection and matches input faces with stored labeled images using grayscale comparison (Mean Squared Error).
 
-This project implements a real-time Face Detection and Recognition system using OpenCV and NumPy. The application detects faces from video streams using Haar cascade classifiers and recognizes known individuals by comparing grayscale facial images.
+Tech Stack: OpenCV, NumPy, Python
 
-Key Features:
+Features:
 
-    Manual image preprocessing without high-level libraries
+    Real-time face detection via Haar cascades
 
-    Simple recognition using Mean Squared Error over pixel data
+    Manual pixel-level face recognition
 
-    Live webcam integration with labeling and bounding boxes
+    Webcam video feed with labeled bounding boxes
 
-    Easily extendable to deep learning-based detectors and Siamese networks
+    Easily upgradable to ArcFace or Siamese networks
 
 📊 Task 2: Data Visualization Dashboard
 
-Description:
+Project Overview: An interactive dashboard that visualizes tabular data from CSV or Excel files. The dashboard supports multiple chart types including bar, line, pie, and scatter plots with filtering options.
 
-A dynamic data visualization dashboard built with Python’s Matplotlib, Seaborn, and Plotly. It takes CSV or Excel files and presents interactive charts, including bar graphs, pie charts, scatter plots, and trend analysis visuals.
+Tech Stack: Matplotlib, Seaborn, Plotly, Streamlit
 
-Key Features:
+Features:
 
-    Supports multiple data formats
+    Upload CSV or Excel files for analysis
 
-    Real-time updates with filter options
+    Dynamic visualizations with filters
 
-    User-friendly dashboard layout using Streamlit
+    Streamlit-powered UI for smooth user experience
 
 📝 Task 3: Sentiment Analysis on Tweets
 
-Description:
+Project Overview: A tweet sentiment classification project that labels tweets as positive, negative, or neutral. It uses NLP preprocessing, TF-IDF vectorization, and traditional classifiers for prediction.
 
-A sentiment analysis model that classifies tweets as Positive, Negative, or Neutral. The system uses preprocessed Twitter data and builds a classifier using techniques like TF-IDF vectorization and a supervised learning model (e.g., Logistic Regression, SVM, or Naive Bayes).
+Tech Stack: Pandas, Scikit-learn, NLTK
 
-Key Features:
+Features:
 
-    Cleans noisy social media text (emojis, URLs, hashtags)
+    Cleans tweet text (removing emojis, links, mentions)
 
-    Visualizes sentiment distribution using graphs
+    Trains classifier using labeled dataset
 
-    Exportable model for integration into apps or APIs
+    Outputs sentiment score and visualization charts
 
 🎯 Task 4: Resume Screening Bot
 
-Description:
+Project Overview: A smart resume screening bot that reads applicant resumes, extracts relevant sections, and matches them with job descriptions to shortlist the most relevant candidates.
 
-This bot automates resume screening using NLP techniques. It reads PDF or DOCX resumes, extracts key sections like Education, Experience, and Skills, then matches them against job descriptions using keyword and semantic similarity.
+Tech Stack: PyPDF2/docx2txt, SpaCy, Pandas
 
-Key Features:
+Features:
 
-    PDF/DOCX parser using PyPDF2 or docx2txt
+    Extracts data from DOCX and PDF resumes
 
-    Smart scoring system based on JD-relevance
+    Highlights key skills and experience sections
 
-    Filtered output showing top candidates
+    Scores resumes based on JD alignment
 
 🗣️ Task 5: Voice Assistant Using Python
 
-Description:
+Project Overview: A Python-based voice assistant that can respond to commands like web searches, file opening, telling time, and answering general queries. It uses speech recognition and text-to-speech engines.
 
-A Python-based voice assistant capable of recognizing commands using Speech Recognition and responding using Text-to-Speech (TTS). It performs tasks like web searches, opening applications, sending emails, and telling the time/date.
+Tech Stack: speech_recognition, pyttsx3, Wikipedia API
 
-Key Features:
+Features:
 
-    Natural voice interaction using speech_recognition and pyttsx3
+    Voice command recognition
 
-    Modular design for custom command extension
+    Responds via TTS output
 
-    Offline functionality for basic tasks
+    Executes basic tasks like browsing, app launching, and querying info
 
+📌 How to Use This Repository
+
+    1.Clone the repository:
+    
+    git clone https://github.com/your-username/AI-Internship-CodSoft.git
+    
+    2.Navigate to any project folder:
+
+    cd Task-1-Face-Recognition
+
+    Follow the installation instructions provided in each folder to run the projects locally.
+
+
+    👨‍💻 Author
+
+Name:nethi srivarsha 
+Internship Platform: CodSoft 
+Duration: July 2025 
+LinkedIn: https://www.linkedin.com/in/nethi-srivarsha-9b888528a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba9zaEd1XTbGoCSxUBFRhLQ%3D%3D
